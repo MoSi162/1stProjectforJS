@@ -2,7 +2,7 @@
 var choices = ["rock", "paper", "scissors"];
 
 // Get player input
-var playerChoice = prompt("Choose rock, paper or scissors:");
+var playerChoice = ("Choose rock, paper or scissors:");
 
 // Check if input is valid
 if (playerChoice === "rock" || playerChoice === "paper" || playerChoice === "scissors") {
